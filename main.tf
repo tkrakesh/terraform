@@ -8,4 +8,8 @@ resource "google_sql_database_instance" "main" {
     # type. See argument reference below.
     tier = "db-f1-micro"
   }
+  backup_configuration {
+      enabled = true
+      start_time = "04:30"
+    }
 }
