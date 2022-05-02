@@ -4,8 +4,6 @@
 # Cloud where your token is already securely stored in your workspace!
 
 provider "google" {
-  credentials = var.credentials
-
   project = "zeta-feat-342908"
   region  = "us-central1"
   zone    = "us-central1-c"
