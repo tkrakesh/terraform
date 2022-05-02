@@ -4,7 +4,7 @@
 # Cloud where your token is already securely stored in your workspace!
 
 provider "google" {
-  credentials = file("C:\\Users\\rakesh.karthikeyan\\Documents\\Terraform\\cred\\zeta-feat-342908-d5781f5a61d9.json")
+  credentials = var.credentials
 
   project = "zeta-feat-342908"
   region  = "us-central1"
