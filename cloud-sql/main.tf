@@ -1,5 +1,5 @@
 resource "google_sql_database_instance" "main" {
-  name             = "main-instance"
+  name             = "main-instance1"
   database_version = "POSTGRES_11"
   region           = "us-central1"
   deletion_protection = false
