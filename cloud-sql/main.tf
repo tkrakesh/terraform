@@ -1,4 +1,4 @@
-resource "google_sql_database_instance" "main" {
+resource "google_sql_database_instance" "main1" {
   name             = "main-instance1"
   database_version = "POSTGRES_11"
   region           = "us-central1"
